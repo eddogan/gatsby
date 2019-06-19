@@ -1,0 +1,139 @@
+// Config vars
+$vertical-gutter: 8vh
+
+
+
+section 
+  position: relative
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  width: 100%
+  padding-left: 1.5vw
+  padding-right: 1.5vw
+  overflow: hidden
+
+
+.vh100 
+  height: 100vh
+  
+.narrow 
+  max-width: 90%
+  -ms-flex: 0 0 90%
+  flex: 0 0 90%
+  
+.margin 
+  margin-top: $vertical-gutter 
+  margin-bottom: $vertical-gutter
+  
+.topmargin 
+  margin-top: $vertical-gutter
+  
+.bottommargin 
+  margin-bottom: $vertical-gutter
+  
+.padding 
+  padding-top: $vertical-gutter 
+  padding-bottom: $vertical-gutter
+  
+.toppadding 
+  padding-top: $vertical-gutter
+  
+.bottompadding 
+  padding-bottom: $vertical-gutter
+  
+.overflow 
+  overflow: visible
+  
+.jc_center 
+  justify-content: center 
+.ai_center 
+  align-items: center  
+.jc_start 
+  justify-content: flex-start  
+.ai_start 
+  align-items: flex-start  
+.jc_end 
+  justify-content: flex-end  
+.ai_end 
+  align-items: flex-end
+.jc_between 
+  justify-content: space-between
+.ai_between 
+  align-items: space-between
+.jc_around 
+  justify-content: space-around
+.ai_around 
+  align-items: space-around
+
+
+%column 
+  position: relative 
+  display: inline-flex 
+  flex-wrap: wrap
+
+c-20 
+  @extend %column
+  max-width: 20%
+  -ms-flex: 0 0 20%
+  flex: 0 0 20%
+c-25 
+  @extend %column
+  max-width: 25% 
+  -ms-flex: 0 0 25% 
+  flex: 0 0 25%
+c-33
+  @extend %column 
+  max-width: 33.33333% 
+  -ms-flex: 0 0 33.33333%
+  flex: 0 0 33.33333%
+c-40
+  @extend %column 
+  max-width: 40% 
+  -ms-flex: 0 0 40% 
+  flex: 0 0 40%
+c-50
+  @extend %column 
+  max-width: 50% 
+  -ms-flex: 0 0 50% 
+  flex: 0 0 50%
+c-60
+  @extend %column 
+  max-width: 60%
+  -ms-flex: 0 0 60% 
+  flex: 0 0 60%
+c-66 
+  @extend %column
+  max-width: 66.66667% 
+  -ms-flex: 0 0 66.66667% 
+  flex: 0 0 66.66667%
+c-75 
+  @extend %column
+  max-width: 75% 
+  -ms-flex: 0 0 75% 
+  flex: 0 0 75%
+c-80 
+  @extend %column
+  max-width: 80% 
+  -ms-flex: 0 0 80% 
+  flex: 0 0 80%
+c-90 
+  @extend %column
+  max-width: 90% 
+  -ms-flex: 0 0 90%
+  flex: 0 0 90%
+c-100 
+  @extend %column
+  max-width: 100% 
+  -ms-flex: 0 0 100% 
+  flex: 0 0 100%
+
+c-inner 
+  padding: 1.5vw 
+  display: flex 
+  flex-direction: column 
+  position: relative
+  width: 100%
+
+
